@@ -10,7 +10,7 @@ import SingleTodo from "./SingleTodo";
 
 // defning the types of the props we passed from App.tsx
 interface Props{
-    // todos are an arrey of tyoe Todo(that we created at model.tsx and imported here)
+    // todos are an arrey of type Todo(that we created at model.tsx and imported here)
     todos: Todo[];
     //found the type of setTodos hovering on setTodos on App.tsx
     setTodos: React.Dispatch<React.SetStateAction<Todo[]>>
